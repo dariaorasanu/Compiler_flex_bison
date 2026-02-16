@@ -1,0 +1,94 @@
+/*
+Daria 
+si 
+Ariana 
+va prezinta:
+*/
+string s = "Verificam nota arianei si dariei: ";
+
+class DuoMeter {
+    string nume1;
+    string nume2;
+    bool a2;
+
+   string init(string s1, string s2)
+   {
+      if(s1 == "Ariana" && s2 == "Daria")
+       { 
+          Print(s);
+       }
+       return 0;
+   }
+    bool ComparareNota(int nota)
+    {
+       int nota_maxima=10;
+      if(nota == nota_maxima)
+      {
+         return true;
+      }
+      return false;
+    }
+}
+int sumaCifrelor (float y)
+{
+   Print("Nu intra!");
+}
+int sumaCifrelor(int x) {
+   int s;
+   int cifra;
+   s = 0;
+   if (x == 0) {
+       return 0;
+    }
+        while (x > 0) {
+            cifra = x % 10;
+            s = s + cifra;
+            x = x / 10;
+        }
+        return s;
+    }
+
+int nota = 10;
+float medie;
+bool a1 = false;
+bool a3;
+bool a2 = true;
+
+int i;
+
+DuoMeter duo;
+int numar;
+int suma;
+
+main {
+   
+   duo.init("Ariana","Daria");
+
+   a3 = (a1 || (!a1 && a2)) || !!a1;
+   a1 = duo.ComparareNota(nota);
+
+   if (a3 && !a1) {
+      Print("Nota e 10. Pornim FOR-ul de puncte bonus!");
+      for (i = 1; i < nota/2; i = i + 1) {
+         Print("Iteratia FOR: ");
+         Print(i);
+      }
+   }
+   else {
+     Print("Ceva gresit la nota!");
+   }
+
+
+   //suma cifrelor
+   numar = 14012026;
+   suma = sumaCifrelor(numar);
+   Print("Suma cifrelor din data prezentarii proiectului(14.01.2026) este: ");
+   Print(suma);
+
+   //momentul prezentarii
+   i = 0;
+   while (i < 3) {
+      Print("While-ul spune: inca putin si prezentam!");
+      i = i + 1;
+   }
+}

@@ -1,0 +1,65 @@
+=== Scope: global ===
+ID: DuoMeter | Type: class DuoMeter
+ID: a1 | Value: false
+ID: a2 | Value: true
+ID: a3 | Value: true
+ID: duo | Type: class DuoMeter
+ID: i | Value: 3
+ID: medie | Value: 0
+ID: nota | Value: 10
+ID: numar | Value: 14012026
+ID: s | Value: Verificam nota arianei si dariei: 
+ID: suma | Value: 16
+ID: sumaCifrelor#float | Function return: int | Params: (float)
+ID: sumaCifrelor#int | Function return: int | Params: (int)
+
+=== Scope: class_DuoMeter ===
+Parent: global
+ID: ComparareNota#int | Function return: bool | Params: (int)
+ID: a2 | Value: false
+ID: init#string#string | Function return: string | Params: (string, string)
+ID: nume1 | Value: 
+ID: nume2 | Value: 
+
+=== Scope: func_init ===
+Parent: class_DuoMeter
+ID: s1 | Value: 
+ID: s2 | Value: 
+
+=== Scope: func_ComparareNota ===
+Parent: class_DuoMeter
+ID: nota | Value: 0
+ID: nota_maxima | Value: 0
+
+=== Scope: func_sumaCifrelor ===
+Parent: global
+ID: y | Value: 0
+
+=== Scope: func_sumaCifrelor ===
+Parent: global
+ID: cifra | Value: 0
+ID: s | Value: 0
+ID: x | Value: 0
+
+=== Scope: main_scope ===
+Parent: global
+
+=== Scope: main_scope ===
+Parent: global
+
+=== Scope: call_duo.init ===
+Parent: main_scope
+ID: s1 | Value: Ariana
+ID: s2 | Value: Daria
+
+=== Scope: call_duo.ComparareNota ===
+Parent: main_scope
+ID: nota | Value: 10
+ID: nota_maxima | Value: 10
+
+=== Scope: call_sumaCifrelor ===
+Parent: main_scope
+ID: cifra | Value: 1
+ID: s | Value: 16
+ID: x | Value: 0
+
